@@ -15,10 +15,14 @@ function App() {
 
   // reading time 
 const [readingTime , setreadingTime] = useState(0)
-const handleMarkAsRead = time =>{
+const handleMarkAsRead = (id , time) =>{
   const newReadingTime = readingTime + time ;
   setreadingTime(newReadingTime);
-  console.log(readingTime)
+  // console.log(readingTime)
+  // out from bookmarks 
+  // console.log('out bookmarks', id )
+  const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id); 
+  setbookmarks(remainingBookmarks);
 }
 
   return (
