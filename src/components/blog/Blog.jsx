@@ -5,7 +5,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const { id, title, cover, author, author_img, posted_date, reading_time, hashtags } = blog;
   return (
     <div className="pt-10 w-[845px]">
-    <img className="rounded-2xl" src={cover} alt="" />
+    <img className="w-[845px] h-[450px] rounded-2xl" src={cover} alt="" />
       <div className="flex justify-between items-center pt-5">
         <div className="flex items-center">
           <div className="w-16 h-16">
