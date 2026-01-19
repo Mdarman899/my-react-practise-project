@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover": "public/images/1.jpg",
+    "cover": "/images/1.jpg",
     "title": "JavaScript Basics Explained",
     "author": "John Doe",
     "author_img": "/src/assets/images/boy1.png",
